@@ -83,4 +83,3 @@ WHERE `Order Date` = '28/03/2019'
 - **Nom** : Imade El-hilali & Abdessamad Misdak  
 
 - **Promotion** : Master Big Data & IA – 2024/2026
-- **Contact** : imadeelhilali@gmail.com 
