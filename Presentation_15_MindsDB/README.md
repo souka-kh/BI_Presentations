@@ -1,12 +1,18 @@
-# Prédiction des ventes avec MindsDB
+# 🐘 MindsDB : L'IA au Cœur de Vos Données
 
-## 📌 Résumé
-Cette présentation explore comment utiliser MindsDB pour prédire le montant des ventes à partir des caractéristiques des commandes. L’objectif est de démontrer l’usage de l’IA automatisée pour la Business Intelligence à travers un cas d’usage concret.
+**MindsDB** est une solution d'intelligence artificielle conçue pour simplifier l'intégration de l'IA directement dans vos bases de données existantes.
 
-## 🎯 Objectifs d'apprentissage
-- Comprendre le fonctionnement d’un AutoML tel que MindsDB.
-- Être capable de créer un prédicteur sur un jeu de données réel.
-- Savoir interpréter les résultats d’un modèle prédictif dans un contexte commercial.
+---
+
+### 📌 Objectifs
+
+La présentation vise à éclairer les points suivants concernant MindsDB :
+
+* **Simplifier l'intégration de l'IA en Business Intelligence (BI)** : MindsDB rend l'IA accessible directement depuis les bases de données, permettant aux professionnels de la BI qui maîtrisent déjà le SQL d'utiliser la puissance de l'IA sans compétences avancées en Machine Learning.
+* **Démocratiser le Machine Learning (ML)** : MindsDB a pour mission de rendre le ML facile d'accès pour les utilisateurs dont les données résident dans une base de données. Il élimine la nécessité d'une extraction et transformation de données (ETL) complexe en permettant la formation et le déploiement de modèles directement au sein de la base de données.
+* **Transformer l'accès aux données en entreprise** : MindsDB se positionne comme une solution d'AGI (Artificial General Intelligence) qui connecte et unifie des données à l'échelle du pétaoctet, facilitant la prise de décision informée en temps réel à l'échelle de l'entreprise. Il permet des interactions en langage naturel avec les données, rendant l'analyse rapide et intuitive même pour les utilisateurs non spécialisés.
+* **Présenter l'architecture et les fonctionnalités clés** : Comprendre le cœur de MindsDB, basé sur ses trois capacités fondamentales – **Connecter, Unifier, Répondre** – et le concept d'**AI Tables** et **AutoML**.
+* **Illustrer des cas d'utilisation concrets** : Démontrer comment MindsDB peut être appliqué pour des tâches telles que la prédiction des ventes, l'analyse de sentiment client et la détection de fraudes, en intégrant des prédictions intelligentes directement dans les flux BI.
 
 ## 🛠️ Prérequis
 ### Techniques
