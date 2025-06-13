@@ -1,0 +1,58 @@
+  
+
+SHOW TABLES FROM files;
+
+  
+
+--- These files can be queried as tables,
+
+--- You just uploaded sales_data
+
+  
+
+SELECT * FROM files.sales_data LIMIT 5;
+
+  
+
+SELECT `Order Date`, `Ship Date`, `Ship Mode`, Segment, Category, Sales FROM files.sales_data;
+
+  
+  
+
+DROP MODEL IF EXISTS mindsdb.predict_sales;
+
+  
+  
+
+CREATE PREDICTOR mindsdb.predict_sales
+
+FROM files
+
+    (SELECT `Order Date`, `Ship Date`, `Ship Mode`, Segment, Category, Sales FROM sales_data)
+
+PREDICT Sales;
+
+  
+  
+
+SELECT *
+
+FROM information_schema.MODELS
+
+LIMIT 50;
+
+  
+
+Select Sales_confidence, Sales_explain
+
+FROM mindsdb.predict_sales
+
+WHERE  `Order Date` = '28/03/2019' AND
+
+        `Ship Date` = '31/03/2019'AND
+
+        `Ship Mode` = 'First Class'AND
+
+        Segment = 'Consumer'AND
+
+        Category = 'Funiture';
